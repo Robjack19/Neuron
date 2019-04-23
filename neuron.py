@@ -16,6 +16,7 @@ synaptic_weights = 2 * np.random.random((3, 1)) - 1
 print('Random starting synaptic weights: ')
 print(synaptic_weights)
 
+#Increase range to get more accurate outputs
 for iteration in range(50000):
     input_layer = training_inputs
 
